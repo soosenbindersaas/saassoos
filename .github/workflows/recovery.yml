@@ -16,11 +16,11 @@ on:
 env:
   MANIFEST: https://gitlab.com/OrangeFox/Manifest.git
   MANIFEST_BRANCH: fox_9.0
-  DEVICE: rosy
-  DT_LINK: https://github.com/ElytrA8/recovery_rosy
-  DT_PATH: device/xiaomi/rosy
+  DEVICE: veux
+  DT_LINK: https://gitlab.com/heinzgerdketchup2/devicetreexiaomipocox4pro5g.git
+  DT_PATH: device/xiaomi/veux
   TARGET: recoveryimage
-  TZ: Asia/Kolkata
+  TZ: Europe/London
 
 jobs:
   build:
